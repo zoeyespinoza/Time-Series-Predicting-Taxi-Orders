@@ -33,7 +33,9 @@ The decomposition of the time series into trend, seasonal, and residual componen
 2. **Seasonal:** By looking at one week of seasonal data, we can clearly see daily patterns. The peaks might represent the hours with the highest demand each day, and the troughs the hours with the lowest demand. This suggests that certain times of the day consistently have higher or lower demand for taxis.
 
 3. **Residual:** The residuals show the noise or irregularities that aren't captured by the trend or seasonal components. The variance in residuals seems to increase over time, suggesting the possibility of heteroscedasticity (i.e., non-constant variance).
-4. 
+  
+## Modeling Results:
+
 **The Linear Regression:**
 - RMSE on Training Data: 25.70
 - RMSE on Test Data: 45.77
