@@ -25,6 +25,7 @@ There's a clear upward trend in taxi orders over time, indicating that the deman
 Some periodic patterns can be observed, which may be related to daily or weekly cycles. This suggests that there might be specific hours or days with consistently higher or lower demand.
 
 <img src="timeseries1.png" alt="Time Series">
+
 The decomposition of the time series into trend, seasonal, and residual components provides the following insights:
 
 1. **Trend:** There's a noticeable upward trend in taxi orders over time, confirming our initial observation.
