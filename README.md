@@ -18,10 +18,21 @@ The RMSE metric on the test set should not be more than 48.
 The data is stored in file `taxi.csv`. The number of orders is in the '*num_orders*' column.
 
 ## Evaluation
-<img src="timesseries1.png" alt="Description of the image">
+<img src="taxiorders.png" alt="Taxi Orders">
 
-<img src="taxiorders.png" alt="Description of the image">
+There's a clear upward trend in taxi orders over time, indicating that the demand for taxis has been increasing.
 
+Some periodic patterns can be observed, which may be related to daily or weekly cycles. This suggests that there might be specific hours or days with consistently higher or lower demand.
+
+<img src="timeseries1.png" alt="Time Series">
+The decomposition of the time series into trend, seasonal, and residual components provides the following insights:
+
+1. **Trend:** There's a noticeable upward trend in taxi orders over time, confirming our initial observation.
+
+2. **Seasonal:** By looking at one week of seasonal data, we can clearly see daily patterns. The peaks might represent the hours with the highest demand each day, and the troughs the hours with the lowest demand. This suggests that certain times of the day consistently have higher or lower demand for taxis.
+
+3. **Residual:** The residuals show the noise or irregularities that aren't captured by the trend or seasonal components. The variance in residuals seems to increase over time, suggesting the possibility of heteroscedasticity (i.e., non-constant variance).
+4. 
 **The Linear Regression:**
 - RMSE on Training Data: 25.70
 - RMSE on Test Data: 45.77
