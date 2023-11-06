@@ -18,6 +18,9 @@ The RMSE metric on the test set should not be more than 48.
 The data is stored in file `taxi.csv`. The number of orders is in the '*num_orders*' column.
 
 ## Evaluation
+<img src="timesseries.png" alt="Description of the image">
+
+<img src="taxiorders.png" alt="Description of the image">
 
 **The Linear Regression:**
 - RMSE on Training Data: 25.70
